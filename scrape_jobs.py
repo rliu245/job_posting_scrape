@@ -5,6 +5,7 @@ Created on Sun Sep 23 18:43:20 2018
 @author: Ray
 """
 
+# lowercase text
 def lower_case(text):
     return [word.lower() for word in text]
 
