@@ -9,6 +9,7 @@ Created on Sun Sep 23 18:43:20 2018
 def lower_case(text):
     return [word.lower() for word in text]
 
+# remove punctuations for text
 def remove_punctuation(text):
     import string
     
